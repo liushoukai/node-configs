@@ -1,10 +1,16 @@
 # node-config
-Loads a config based on environment variables config and node_env.
+**Loads a config based on environment variables config and node_env.**
 
-##Config
+#Config
 
+**Directory structure**
+```
+foo
++-- conf
+|   `-- default.json
+`-- package.json
+```
 **default.json**
-
 ```
 {
   "person" : {
@@ -13,7 +19,7 @@ Loads a config based on environment variables config and node_env.
   }
 }
 ```
-##Usage
+#Usage
 
 ```
 var config = require('config');
