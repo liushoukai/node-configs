@@ -1,9 +1,9 @@
 # node-config
 **Loads a config based on environment variables config and node_env.**
 
-#Config
+## Config
 
-**Directory structure**
+**Directory Structure**
 ```
 foo
 +-- conf
@@ -19,7 +19,7 @@ foo
   }
 }
 ```
-#Usage
+## Usage
 
 ```
 var config = require('config');

@@ -4,7 +4,7 @@
   "description": "A config files loader",
   "main": "index.js",
   "scripts": {
-    "test": "./bin/test"
+    "test": "NODE_CONF_DIR='test/conf' ./node_modules/.bin/_mocha test"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/liushoukai/node-configs/issues"
   },
-  "homepage": "https://github.com/liushoukai/node-configs#readme"
+  "homepage": "https://github.com/liushoukai/node-configs#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "rewire": "^2.3.4",
+    "vows": "^0.8.1"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
 }
