@@ -12,7 +12,7 @@
 foo
 +-- conf
 |   +-- dev.json
-|   `-- pro.json
+|   +-- pro.json
 |   `-- default.json
 `-- package.json
 ```
@@ -28,21 +28,21 @@ foo
 ## Usage
 
 ```
-// Read from default json
+// Read from default.json
 $node index.js
 var config = require('config');
 var name = config.get('person.name');
 ```
 
 ```
-// Read from dev json
+// Read from dev.json
 node index.js --NODE_ENV=dev
 var config = require('config');
 var name = config.get('person.name');
 ```
 
 ```
-// Read from pro json
+// Read from pro.json
 node index.js --NODE_ENV=pro
 var config = require('config');
 var name = config.get('person.name');
