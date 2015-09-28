@@ -1,6 +1,6 @@
 {
   "name": "node-configs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A config files loader",
   "main": "index.js",
   "scripts": {
