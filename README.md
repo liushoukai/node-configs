@@ -1,11 +1,7 @@
 # node-configs
 
-[![build status][travis-image]][travis-url]
-[![node version][node-image]][node-url]
-[travis-image]: https://travis-ci.org/liushoukai/node-configs.svg?branch=master
-[travis-url]: https://travis-ci.org/liushoukai/node-configs
-[node-image]: https://img.shields.io/badge/node.js-%3E=_0.12-brightgreen.svg?style=flat
-[node-url]: http://nodejs.org/download/
+[![build status](https://travis-ci.org/liushoukai/node-configs.svg?branch=master)](https://travis-ci.org/liushoukai/node-configs)
+[![node version](https://img.shields.io/badge/node.js-%3E=_0.12-brightgreen.svg?style=flat)](http://nodejs.org/download/)
 
 **Loads a config based on environment variables config and node_env.**
 
