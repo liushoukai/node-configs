@@ -21,7 +21,7 @@ foo
 {
   "person" : {
     "name" : "Bruce",
-    "age"  : 30,
+    "age"  : 30
   }
 }
 ```
