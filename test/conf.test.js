@@ -5,7 +5,8 @@ var expect = require('chai').expect
   , config = null
   ;
 
-//config = rewire('../lib/conf');
-var config = require('../')
+process.env.NODE_CONF_DIR='test/conf';
+
+var config = require('../');
 config.get('person.age').should.equal(25);
 
