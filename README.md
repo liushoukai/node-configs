@@ -36,14 +36,14 @@ var name = config.get('person.name');
 
 ```
 // Read from dev.json
-node index.js --NODE_ENV=dev
+$node index.js --NODE_ENV=dev
 var config = require('config');
 var name = config.get('person.name');
 ```
 
 ```
 // Read from pro.json
-node index.js --NODE_ENV=pro
+$node index.js --NODE_ENV=pro
 var config = require('config');
 var name = config.get('person.name');
 ```
